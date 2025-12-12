@@ -7,7 +7,7 @@ from tensorflow import keras
 # Load the model (will be in the same folder when deployed)
 @st.cache_resource
 def load_model():
-    return keras.models.load_model("best_strong(1).h5")
+    return keras.models.load_model("best_strong (1).h5")
 
 model = load_model()
 class_names = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
